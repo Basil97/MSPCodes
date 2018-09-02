@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal">
+
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/image_view"
+		android:layout_marginBottom="10dp"
+		android:layout_marginTop="10dp"
+		android:background="@drawable/iphone_4"
+		android:layout_gravity="left|center_vertical"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical"
+		android:layout_margin="10dp"
+		android:gravity="center"
+		android:layout_gravity="center">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:text="ProductName"
+			android:id="@+id/txt_name"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="Price"
+			android:id="@+id/txt_price"/>
+
+	</LinearLayout>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Add to Cart"
+		android:id="@+id/btn"
+		android:layout_gravity="bottom|right"/>
+
+</LinearLayout>
+
